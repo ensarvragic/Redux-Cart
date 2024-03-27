@@ -38,7 +38,7 @@ const cartSlice = createSlice({
   },
 });
 
-const sendCartData = (cart) => {
+export const sendCartData = (cart) => {
   return async (dispatch) => {
     dispatch(
       uiActions.showNotificaiton({
